@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "modworkshop-downloader"
+version = "0.1.0"
+description = ""
+authors = ["flashgnash"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+prompt-toolkit = "^3.0.47"
+requests = "^2.32.3"
+python-levenshtein = "^0.25.1"
+pzp = "^0.0.24"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
